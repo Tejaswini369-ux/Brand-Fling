@@ -1,0 +1,18 @@
+@import "keep-react/css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS */
+.relative:hover .absolute {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hover-bg-b4c4ff:hover {
+  background-color: #b4c4ff;
+}
+
+.blue {
+  background-color: #b4c4ff;
+}
